@@ -35,7 +35,7 @@ def set_page_container_style() -> None:
 
 def display_sidebar_header() -> None:
     # Logo
-    logo = Image.open("/mount/src/dashboard_monitoring/streamlit-app/static/logo.png")
+    logo = Image.open("/mount/src/dashboard/streamlit-app/static/logo.png")
     with st.sidebar:
         st.image(logo, use_column_width=True)
         col1, col2 = st.columns(2)
