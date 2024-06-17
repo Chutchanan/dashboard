@@ -16,7 +16,7 @@ from src.utils import EntityNotFoundError
 from src.utils import get_reports_mapping
 from src.utils import list_periods
 
-PROJECTS_DIR: Path = Path("/mount/src/dashboard_monitoring/projects")
+PROJECTS_DIR: Path = Path("/mount/src/dashboard/projects")
 REPORTS_DIR_NAME: Text = "reports"
 
 if __name__ == "__main__":
