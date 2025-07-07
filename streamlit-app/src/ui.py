@@ -37,7 +37,7 @@ def display_sidebar_header() -> None:
     # Logo
     logo = Image.open("/mount/src/dashboard/streamlit-app/static/logo.png")
     with st.sidebar:
-        st.image(logo, use_column_width=True)
+        st.image(logo, use_container_width=True)  """ modify this line """
         col1, col2 = st.columns(2)
         repo_link: Text = (
             "https://github.com/mnrozhkov/evidently/tree/main/examples/integrations"
